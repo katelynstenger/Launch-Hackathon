@@ -1,0 +1,2073 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20181.18.0510.1418                               -->
+<workbook original-version='18.1' source-build='2018.1.1 (20181.18.0510.1418)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <SortTagCleanup />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <datasources>
+    <datasource caption='cityshva2015' inline='true' name='federated.14aifyo1bzwita104jyp818g778f' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='cityshva2015' name='textscan.0bv8pta05ztkmi1h43ao105aikw5'>
+            <connection class='textscan' directory='C:/Users/ks5gh/Documents' filename='cityshva2015.csv' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <relation connection='textscan.0bv8pta05ztkmi1h43ao105aikw5' name='cityshva2015.csv' table='[cityshva2015#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+            <column datatype='string' name='ABV' ordinal='0' />
+            <column datatype='string' name='NAME' ordinal='1' />
+            <column datatype='string' name='TYPE' ordinal='2' />
+            <column datatype='integer' name='PLACEFP' ordinal='3' />
+            <column datatype='string' name='CATEGORY' ordinal='4' />
+            <column datatype='string' name='SLICE' ordinal='5' />
+            <column datatype='real' name='OWNER 0-30%' ordinal='6' />
+            <column datatype='real' name='OWNER 30-50%' ordinal='7' />
+            <column datatype='real' name='OWNER 50-80%' ordinal='8' />
+            <column datatype='real' name='OWNER 80-100%' ordinal='9' />
+            <column datatype='real' name='OWNER 100%+' ordinal='10' />
+            <column datatype='real' name='RENTER 0-30%' ordinal='11' />
+            <column datatype='real' name='RENTER 30-50%' ordinal='12' />
+            <column datatype='real' name='RENTER 50-80%' ordinal='13' />
+            <column datatype='real' name='RENTER 80-100%' ordinal='14' />
+            <column datatype='real' name='RENTER 100%+' ordinal='15' />
+            <column datatype='real' name='OWNER HINCP 0-30%' ordinal='16' />
+            <column datatype='real' name='OWNER HINCP 30-50%' ordinal='17' />
+            <column datatype='real' name='OWNER HINCP 50-80%' ordinal='18' />
+            <column datatype='real' name='OWNER HINCP 80-100%' ordinal='19' />
+            <column datatype='real' name='OWNER HINCP 100%+' ordinal='20' />
+            <column datatype='real' name='RENTER HINCP 0-30%' ordinal='21' />
+            <column datatype='real' name='RENTER HINCP 30-50%' ordinal='22' />
+            <column datatype='real' name='RENTER HINCP 50-80%' ordinal='23' />
+            <column datatype='real' name='RENTER HINCP 80-100%' ordinal='24' />
+            <column datatype='real' name='RENTER HINCP 100%+' ordinal='25' />
+            <column datatype='real' name='OWNER ALLP 0-30%' ordinal='26' />
+            <column datatype='real' name='OWNER ALLP 30-50%' ordinal='27' />
+            <column datatype='real' name='OWNER ALLP 50-80%' ordinal='28' />
+            <column datatype='real' name='OWNER ALLP 80-100%' ordinal='29' />
+            <column datatype='real' name='OWNER ALLP 100%+' ordinal='30' />
+            <column datatype='real' name='RENTER ALLP 0-30%' ordinal='31' />
+            <column datatype='real' name='RENTER ALLP 30-50%' ordinal='32' />
+            <column datatype='real' name='RENTER ALLP 50-80%' ordinal='33' />
+            <column datatype='real' name='RENTER ALLP 80-100%' ordinal='34' />
+            <column datatype='real' name='RENTER ALLP 100%+' ordinal='35' />
+            <column datatype='real' name='OWNER ELEP 0-30%' ordinal='36' />
+            <column datatype='real' name='OWNER ELEP 30-50%' ordinal='37' />
+            <column datatype='real' name='OWNER ELEP 50-80%' ordinal='38' />
+            <column datatype='real' name='OWNER ELEP 80-100%' ordinal='39' />
+            <column datatype='real' name='OWNER ELEP 100%+' ordinal='40' />
+            <column datatype='real' name='RENTER ELEP 0-30%' ordinal='41' />
+            <column datatype='real' name='RENTER ELEP 30-50%' ordinal='42' />
+            <column datatype='real' name='RENTER ELEP 50-80%' ordinal='43' />
+            <column datatype='real' name='RENTER ELEP 80-100%' ordinal='44' />
+            <column datatype='real' name='RENTER ELEP 100%+' ordinal='45' />
+            <column datatype='real' name='OWNER GASP 0-30%' ordinal='46' />
+            <column datatype='real' name='OWNER GASP 30-50%' ordinal='47' />
+            <column datatype='real' name='OWNER GASP 50-80%' ordinal='48' />
+            <column datatype='real' name='OWNER GASP 80-100%' ordinal='49' />
+            <column datatype='real' name='OWNER GASP 100%+' ordinal='50' />
+            <column datatype='real' name='RENTER GASP 0-30%' ordinal='51' />
+            <column datatype='real' name='RENTER GASP 30-50%' ordinal='52' />
+            <column datatype='real' name='RENTER GASP 50-80%' ordinal='53' />
+            <column datatype='real' name='RENTER GASP 80-100%' ordinal='54' />
+            <column datatype='real' name='RENTER GASP 100%+' ordinal='55' />
+            <column datatype='real' name='OWNER FULP 0-30%' ordinal='56' />
+            <column datatype='real' name='OWNER FULP 30-50%' ordinal='57' />
+            <column datatype='real' name='OWNER FULP 50-80%' ordinal='58' />
+            <column datatype='real' name='OWNER FULP 80-100%' ordinal='59' />
+            <column datatype='real' name='OWNER FULP 100%+' ordinal='60' />
+            <column datatype='real' name='RENTER FULP 0-30%' ordinal='61' />
+            <column datatype='real' name='RENTER FULP 30-50%' ordinal='62' />
+            <column datatype='real' name='RENTER FULP 50-80%' ordinal='63' />
+            <column datatype='real' name='RENTER FULP 80-100%' ordinal='64' />
+            <column datatype='real' name='RENTER FULP 100%+' ordinal='65' />
+            <column datatype='real' name='OWNER 0-30% NONZERO INCOME' ordinal='66' />
+            <column datatype='real' name='OWNER 30-50% NONZERO INCOME' ordinal='67' />
+            <column datatype='real' name='OWNER 50-80% NONZERO INCOME' ordinal='68' />
+            <column datatype='real' name='OWNER 80-100% NONZERO INCOME' ordinal='69' />
+            <column datatype='real' name='OWNER 100%+ NONZERO INCOME' ordinal='70' />
+            <column datatype='real' name='RENTER 0-30% NONZERO INCOME' ordinal='71' />
+            <column datatype='real' name='RENTER 30-50% NONZERO INCOME' ordinal='72' />
+            <column datatype='real' name='RENTER 50-80% NONZERO INCOME' ordinal='73' />
+            <column datatype='real' name='RENTER 80-100% NONZERO INCOME' ordinal='74' />
+            <column datatype='real' name='RENTER 100%+ NONZERO INCOME' ordinal='75' />
+            <column datatype='real' name='OWNER 0-30% NONZERO ENERGY' ordinal='76' />
+            <column datatype='real' name='OWNER 30-50% NONZERO ENERGY' ordinal='77' />
+            <column datatype='real' name='OWNER 50-80% NONZERO ENERGY' ordinal='78' />
+            <column datatype='real' name='OWNER 80-100% NONZERO ENERGY' ordinal='79' />
+            <column datatype='real' name='OWNER 100%+ NONZERO ENERGY' ordinal='80' />
+            <column datatype='real' name='RENTER 0-30% NONZERO ENERGY' ordinal='81' />
+            <column datatype='real' name='RENTER 30-50% NONZERO ENERGY' ordinal='82' />
+            <column datatype='real' name='RENTER 50-80% NONZERO ENERGY' ordinal='83' />
+            <column datatype='real' name='RENTER 80-100% NONZERO ENERGY' ordinal='84' />
+            <column datatype='real' name='RENTER 100%+ NONZERO ENERGY' ordinal='85' />
+          </columns>
+        </relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[cityshva2015.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ABV</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[ABV]</local-name>
+            <parent-name>[cityshva2015.csv]</parent-name>
+            <remote-alias>ABV</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>NAME</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[NAME]</local-name>
+            <parent-name>[cityshva2015.csv]</parent-name>
+            <remote-alias>NAME</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>TYPE</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[TYPE]</local-name>
+            <parent-name>[cityshva2015.csv]</parent-name>
+            <remote-alias>TYPE</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>PLACEFP</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[PLACEFP]</local-name>
+            <parent-name>[cityshva2015.csv]</parent-name>
+            <remote-alias>PLACEFP</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>CATEGORY</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[CATEGORY]</local-name>
+            <parent-name>[cityshva2015.csv]</parent-name>
+            <remote-alias>CATEGORY</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>SLICE</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[SLICE]</local-name>
+            <parent-name>[cityshva2015.csv]</parent-name>
+            <remote-alias>SLICE</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>OWNER 0-30%</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[OWNER 0-30%]</local-name>
+            <parent-name>[cityshva2015.csv]</parent-name>
+            <remote-alias>OWNER 0-30%</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>OWNER 30-50%</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[OWNER 30-50%]</local-name>
+            <parent-name>[cityshva2015.csv]</parent-name>
+            <remote-alias>OWNER 30-50%</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>OWNER 50-80%</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[OWNER 50-80%]</local-name>
+            <parent-name>[cityshva2015.csv]</parent-name>
+            <remote-alias>OWNER 50-80%</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>OWNER 80-100%</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[OWNER 80-100%]</local-name>
+            <parent-name>[cityshva2015.csv]</parent-name>
+            <remote-alias>OWNER 80-100%</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>OWNER 100%+</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[OWNER 100%+]</local-name>
+            <parent-name>[cityshva2015.csv]</parent-name>
+            <remote-alias>OWNER 100%+</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>RENTER 0-30%</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[RENTER 0-30%]</local-name>
+            <parent-name>[cityshva2015.csv]</parent-name>
+            <remote-alias>RENTER 0-30%</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>RENTER 30-50%</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[RENTER 30-50%]</local-name>
+            <parent-name>[cityshva2015.csv]</parent-name>
+            <remote-alias>RENTER 30-50%</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>RENTER 50-80%</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[RENTER 50-80%]</local-name>
+            <parent-name>[cityshva2015.csv]</parent-name>
+            <remote-alias>RENTER 50-80%</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>RENTER 80-100%</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[RENTER 80-100%]</local-name>
+            <parent-name>[cityshva2015.csv]</parent-name>
+            <remote-alias>RENTER 80-100%</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>RENTER 100%+</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[RENTER 100%+]</local-name>
+            <parent-name>[cityshva2015.csv]</parent-name>
+            <remote-alias>RENTER 100%+</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>OWNER HINCP 0-30%</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[OWNER HINCP 0-30%]</local-name>
+            <parent-name>[cityshva2015.csv]</parent-name>
+            <remote-alias>OWNER HINCP 0-30%</remote-alias>
+            <ordinal>16</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>OWNER HINCP 30-50%</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[OWNER HINCP 30-50%]</local-name>
+            <parent-name>[cityshva2015.csv]</parent-name>
+            <remote-alias>OWNER HINCP 30-50%</remote-alias>
+            <ordinal>17</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>OWNER HINCP 50-80%</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[OWNER HINCP 50-80%]</local-name>
+            <parent-name>[cityshva2015.csv]</parent-name>
+            <remote-alias>OWNER HINCP 50-80%</remote-alias>
+            <ordinal>18</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>OWNER HINCP 80-100%</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[OWNER HINCP 80-100%]</local-name>
+            <parent-name>[cityshva2015.csv]</parent-name>
+            <remote-alias>OWNER HINCP 80-100%</remote-alias>
+            <ordinal>19</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>OWNER HINCP 100%+</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[OWNER HINCP 100%+]</local-name>
+            <parent-name>[cityshva2015.csv]</parent-name>
+            <remote-alias>OWNER HINCP 100%+</remote-alias>
+            <ordinal>20</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>RENTER HINCP 0-30%</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[RENTER HINCP 0-30%]</local-name>
+            <parent-name>[cityshva2015.csv]</parent-name>
+            <remote-alias>RENTER HINCP 0-30%</remote-alias>
+            <ordinal>21</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>RENTER HINCP 30-50%</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[RENTER HINCP 30-50%]</local-name>
+            <parent-name>[cityshva2015.csv]</parent-name>
+            <remote-alias>RENTER HINCP 30-50%</remote-alias>
+            <ordinal>22</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>RENTER HINCP 50-80%</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[RENTER HINCP 50-80%]</local-name>
+            <parent-name>[cityshva2015.csv]</parent-name>
+            <remote-alias>RENTER HINCP 50-80%</remote-alias>
+            <ordinal>23</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>RENTER HINCP 80-100%</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[RENTER HINCP 80-100%]</local-name>
+            <parent-name>[cityshva2015.csv]</parent-name>
+            <remote-alias>RENTER HINCP 80-100%</remote-alias>
+            <ordinal>24</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>RENTER HINCP 100%+</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[RENTER HINCP 100%+]</local-name>
+            <parent-name>[cityshva2015.csv]</parent-name>
+            <remote-alias>RENTER HINCP 100%+</remote-alias>
+            <ordinal>25</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>OWNER ALLP 0-30%</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[OWNER ALLP 0-30%]</local-name>
+            <parent-name>[cityshva2015.csv]</parent-name>
+            <remote-alias>OWNER ALLP 0-30%</remote-alias>
+            <ordinal>26</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>OWNER ALLP 30-50%</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[OWNER ALLP 30-50%]</local-name>
+            <parent-name>[cityshva2015.csv]</parent-name>
+            <remote-alias>OWNER ALLP 30-50%</remote-alias>
+            <ordinal>27</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>OWNER ALLP 50-80%</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[OWNER ALLP 50-80%]</local-name>
+            <parent-name>[cityshva2015.csv]</parent-name>
+            <remote-alias>OWNER ALLP 50-80%</remote-alias>
+            <ordinal>28</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>OWNER ALLP 80-100%</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[OWNER ALLP 80-100%]</local-name>
+            <parent-name>[cityshva2015.csv]</parent-name>
+            <remote-alias>OWNER ALLP 80-100%</remote-alias>
+            <ordinal>29</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>OWNER ALLP 100%+</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[OWNER ALLP 100%+]</local-name>
+            <parent-name>[cityshva2015.csv]</parent-name>
+            <remote-alias>OWNER ALLP 100%+</remote-alias>
+            <ordinal>30</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>RENTER ALLP 0-30%</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[RENTER ALLP 0-30%]</local-name>
+            <parent-name>[cityshva2015.csv]</parent-name>
+            <remote-alias>RENTER ALLP 0-30%</remote-alias>
+            <ordinal>31</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>RENTER ALLP 30-50%</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[RENTER ALLP 30-50%]</local-name>
+            <parent-name>[cityshva2015.csv]</parent-name>
+            <remote-alias>RENTER ALLP 30-50%</remote-alias>
+            <ordinal>32</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>RENTER ALLP 50-80%</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[RENTER ALLP 50-80%]</local-name>
+            <parent-name>[cityshva2015.csv]</parent-name>
+            <remote-alias>RENTER ALLP 50-80%</remote-alias>
+            <ordinal>33</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>RENTER ALLP 80-100%</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[RENTER ALLP 80-100%]</local-name>
+            <parent-name>[cityshva2015.csv]</parent-name>
+            <remote-alias>RENTER ALLP 80-100%</remote-alias>
+            <ordinal>34</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>RENTER ALLP 100%+</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[RENTER ALLP 100%+]</local-name>
+            <parent-name>[cityshva2015.csv]</parent-name>
+            <remote-alias>RENTER ALLP 100%+</remote-alias>
+            <ordinal>35</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>OWNER ELEP 0-30%</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[OWNER ELEP 0-30%]</local-name>
+            <parent-name>[cityshva2015.csv]</parent-name>
+            <remote-alias>OWNER ELEP 0-30%</remote-alias>
+            <ordinal>36</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>OWNER ELEP 30-50%</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[OWNER ELEP 30-50%]</local-name>
+            <parent-name>[cityshva2015.csv]</parent-name>
+            <remote-alias>OWNER ELEP 30-50%</remote-alias>
+            <ordinal>37</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>OWNER ELEP 50-80%</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[OWNER ELEP 50-80%]</local-name>
+            <parent-name>[cityshva2015.csv]</parent-name>
+            <remote-alias>OWNER ELEP 50-80%</remote-alias>
+            <ordinal>38</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>OWNER ELEP 80-100%</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[OWNER ELEP 80-100%]</local-name>
+            <parent-name>[cityshva2015.csv]</parent-name>
+            <remote-alias>OWNER ELEP 80-100%</remote-alias>
+            <ordinal>39</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>OWNER ELEP 100%+</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[OWNER ELEP 100%+]</local-name>
+            <parent-name>[cityshva2015.csv]</parent-name>
+            <remote-alias>OWNER ELEP 100%+</remote-alias>
+            <ordinal>40</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>RENTER ELEP 0-30%</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[RENTER ELEP 0-30%]</local-name>
+            <parent-name>[cityshva2015.csv]</parent-name>
+            <remote-alias>RENTER ELEP 0-30%</remote-alias>
+            <ordinal>41</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>RENTER ELEP 30-50%</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[RENTER ELEP 30-50%]</local-name>
+            <parent-name>[cityshva2015.csv]</parent-name>
+            <remote-alias>RENTER ELEP 30-50%</remote-alias>
+            <ordinal>42</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>RENTER ELEP 50-80%</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[RENTER ELEP 50-80%]</local-name>
+            <parent-name>[cityshva2015.csv]</parent-name>
+            <remote-alias>RENTER ELEP 50-80%</remote-alias>
+            <ordinal>43</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>RENTER ELEP 80-100%</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[RENTER ELEP 80-100%]</local-name>
+            <parent-name>[cityshva2015.csv]</parent-name>
+            <remote-alias>RENTER ELEP 80-100%</remote-alias>
+            <ordinal>44</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>RENTER ELEP 100%+</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[RENTER ELEP 100%+]</local-name>
+            <parent-name>[cityshva2015.csv]</parent-name>
+            <remote-alias>RENTER ELEP 100%+</remote-alias>
+            <ordinal>45</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>OWNER GASP 0-30%</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[OWNER GASP 0-30%]</local-name>
+            <parent-name>[cityshva2015.csv]</parent-name>
+            <remote-alias>OWNER GASP 0-30%</remote-alias>
+            <ordinal>46</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>OWNER GASP 30-50%</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[OWNER GASP 30-50%]</local-name>
+            <parent-name>[cityshva2015.csv]</parent-name>
+            <remote-alias>OWNER GASP 30-50%</remote-alias>
+            <ordinal>47</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>OWNER GASP 50-80%</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[OWNER GASP 50-80%]</local-name>
+            <parent-name>[cityshva2015.csv]</parent-name>
+            <remote-alias>OWNER GASP 50-80%</remote-alias>
+            <ordinal>48</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>OWNER GASP 80-100%</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[OWNER GASP 80-100%]</local-name>
+            <parent-name>[cityshva2015.csv]</parent-name>
+            <remote-alias>OWNER GASP 80-100%</remote-alias>
+            <ordinal>49</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>OWNER GASP 100%+</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[OWNER GASP 100%+]</local-name>
+            <parent-name>[cityshva2015.csv]</parent-name>
+            <remote-alias>OWNER GASP 100%+</remote-alias>
+            <ordinal>50</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>RENTER GASP 0-30%</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[RENTER GASP 0-30%]</local-name>
+            <parent-name>[cityshva2015.csv]</parent-name>
+            <remote-alias>RENTER GASP 0-30%</remote-alias>
+            <ordinal>51</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>RENTER GASP 30-50%</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[RENTER GASP 30-50%]</local-name>
+            <parent-name>[cityshva2015.csv]</parent-name>
+            <remote-alias>RENTER GASP 30-50%</remote-alias>
+            <ordinal>52</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>RENTER GASP 50-80%</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[RENTER GASP 50-80%]</local-name>
+            <parent-name>[cityshva2015.csv]</parent-name>
+            <remote-alias>RENTER GASP 50-80%</remote-alias>
+            <ordinal>53</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>RENTER GASP 80-100%</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[RENTER GASP 80-100%]</local-name>
+            <parent-name>[cityshva2015.csv]</parent-name>
+            <remote-alias>RENTER GASP 80-100%</remote-alias>
+            <ordinal>54</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>RENTER GASP 100%+</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[RENTER GASP 100%+]</local-name>
+            <parent-name>[cityshva2015.csv]</parent-name>
+            <remote-alias>RENTER GASP 100%+</remote-alias>
+            <ordinal>55</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>OWNER FULP 0-30%</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[OWNER FULP 0-30%]</local-name>
+            <parent-name>[cityshva2015.csv]</parent-name>
+            <remote-alias>OWNER FULP 0-30%</remote-alias>
+            <ordinal>56</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>OWNER FULP 30-50%</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[OWNER FULP 30-50%]</local-name>
+            <parent-name>[cityshva2015.csv]</parent-name>
+            <remote-alias>OWNER FULP 30-50%</remote-alias>
+            <ordinal>57</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>OWNER FULP 50-80%</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[OWNER FULP 50-80%]</local-name>
+            <parent-name>[cityshva2015.csv]</parent-name>
+            <remote-alias>OWNER FULP 50-80%</remote-alias>
+            <ordinal>58</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>OWNER FULP 80-100%</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[OWNER FULP 80-100%]</local-name>
+            <parent-name>[cityshva2015.csv]</parent-name>
+            <remote-alias>OWNER FULP 80-100%</remote-alias>
+            <ordinal>59</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>OWNER FULP 100%+</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[OWNER FULP 100%+]</local-name>
+            <parent-name>[cityshva2015.csv]</parent-name>
+            <remote-alias>OWNER FULP 100%+</remote-alias>
+            <ordinal>60</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>RENTER FULP 0-30%</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[RENTER FULP 0-30%]</local-name>
+            <parent-name>[cityshva2015.csv]</parent-name>
+            <remote-alias>RENTER FULP 0-30%</remote-alias>
+            <ordinal>61</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>RENTER FULP 30-50%</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[RENTER FULP 30-50%]</local-name>
+            <parent-name>[cityshva2015.csv]</parent-name>
+            <remote-alias>RENTER FULP 30-50%</remote-alias>
+            <ordinal>62</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>RENTER FULP 50-80%</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[RENTER FULP 50-80%]</local-name>
+            <parent-name>[cityshva2015.csv]</parent-name>
+            <remote-alias>RENTER FULP 50-80%</remote-alias>
+            <ordinal>63</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>RENTER FULP 80-100%</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[RENTER FULP 80-100%]</local-name>
+            <parent-name>[cityshva2015.csv]</parent-name>
+            <remote-alias>RENTER FULP 80-100%</remote-alias>
+            <ordinal>64</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>RENTER FULP 100%+</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[RENTER FULP 100%+]</local-name>
+            <parent-name>[cityshva2015.csv]</parent-name>
+            <remote-alias>RENTER FULP 100%+</remote-alias>
+            <ordinal>65</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>OWNER 0-30% NONZERO INCOME</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[OWNER 0-30% NONZERO INCOME]</local-name>
+            <parent-name>[cityshva2015.csv]</parent-name>
+            <remote-alias>OWNER 0-30% NONZERO INCOME</remote-alias>
+            <ordinal>66</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>OWNER 30-50% NONZERO INCOME</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[OWNER 30-50% NONZERO INCOME]</local-name>
+            <parent-name>[cityshva2015.csv]</parent-name>
+            <remote-alias>OWNER 30-50% NONZERO INCOME</remote-alias>
+            <ordinal>67</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>OWNER 50-80% NONZERO INCOME</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[OWNER 50-80% NONZERO INCOME]</local-name>
+            <parent-name>[cityshva2015.csv]</parent-name>
+            <remote-alias>OWNER 50-80% NONZERO INCOME</remote-alias>
+            <ordinal>68</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>OWNER 80-100% NONZERO INCOME</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[OWNER 80-100% NONZERO INCOME]</local-name>
+            <parent-name>[cityshva2015.csv]</parent-name>
+            <remote-alias>OWNER 80-100% NONZERO INCOME</remote-alias>
+            <ordinal>69</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>OWNER 100%+ NONZERO INCOME</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[OWNER 100%+ NONZERO INCOME]</local-name>
+            <parent-name>[cityshva2015.csv]</parent-name>
+            <remote-alias>OWNER 100%+ NONZERO INCOME</remote-alias>
+            <ordinal>70</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>RENTER 0-30% NONZERO INCOME</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[RENTER 0-30% NONZERO INCOME]</local-name>
+            <parent-name>[cityshva2015.csv]</parent-name>
+            <remote-alias>RENTER 0-30% NONZERO INCOME</remote-alias>
+            <ordinal>71</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>RENTER 30-50% NONZERO INCOME</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[RENTER 30-50% NONZERO INCOME]</local-name>
+            <parent-name>[cityshva2015.csv]</parent-name>
+            <remote-alias>RENTER 30-50% NONZERO INCOME</remote-alias>
+            <ordinal>72</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>RENTER 50-80% NONZERO INCOME</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[RENTER 50-80% NONZERO INCOME]</local-name>
+            <parent-name>[cityshva2015.csv]</parent-name>
+            <remote-alias>RENTER 50-80% NONZERO INCOME</remote-alias>
+            <ordinal>73</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>RENTER 80-100% NONZERO INCOME</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[RENTER 80-100% NONZERO INCOME]</local-name>
+            <parent-name>[cityshva2015.csv]</parent-name>
+            <remote-alias>RENTER 80-100% NONZERO INCOME</remote-alias>
+            <ordinal>74</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>RENTER 100%+ NONZERO INCOME</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[RENTER 100%+ NONZERO INCOME]</local-name>
+            <parent-name>[cityshva2015.csv]</parent-name>
+            <remote-alias>RENTER 100%+ NONZERO INCOME</remote-alias>
+            <ordinal>75</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>OWNER 0-30% NONZERO ENERGY</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[OWNER 0-30% NONZERO ENERGY]</local-name>
+            <parent-name>[cityshva2015.csv]</parent-name>
+            <remote-alias>OWNER 0-30% NONZERO ENERGY</remote-alias>
+            <ordinal>76</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>OWNER 30-50% NONZERO ENERGY</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[OWNER 30-50% NONZERO ENERGY]</local-name>
+            <parent-name>[cityshva2015.csv]</parent-name>
+            <remote-alias>OWNER 30-50% NONZERO ENERGY</remote-alias>
+            <ordinal>77</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>OWNER 50-80% NONZERO ENERGY</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[OWNER 50-80% NONZERO ENERGY]</local-name>
+            <parent-name>[cityshva2015.csv]</parent-name>
+            <remote-alias>OWNER 50-80% NONZERO ENERGY</remote-alias>
+            <ordinal>78</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>OWNER 80-100% NONZERO ENERGY</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[OWNER 80-100% NONZERO ENERGY]</local-name>
+            <parent-name>[cityshva2015.csv]</parent-name>
+            <remote-alias>OWNER 80-100% NONZERO ENERGY</remote-alias>
+            <ordinal>79</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>OWNER 100%+ NONZERO ENERGY</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[OWNER 100%+ NONZERO ENERGY]</local-name>
+            <parent-name>[cityshva2015.csv]</parent-name>
+            <remote-alias>OWNER 100%+ NONZERO ENERGY</remote-alias>
+            <ordinal>80</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>RENTER 0-30% NONZERO ENERGY</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[RENTER 0-30% NONZERO ENERGY]</local-name>
+            <parent-name>[cityshva2015.csv]</parent-name>
+            <remote-alias>RENTER 0-30% NONZERO ENERGY</remote-alias>
+            <ordinal>81</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>RENTER 30-50% NONZERO ENERGY</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[RENTER 30-50% NONZERO ENERGY]</local-name>
+            <parent-name>[cityshva2015.csv]</parent-name>
+            <remote-alias>RENTER 30-50% NONZERO ENERGY</remote-alias>
+            <ordinal>82</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>RENTER 50-80% NONZERO ENERGY</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[RENTER 50-80% NONZERO ENERGY]</local-name>
+            <parent-name>[cityshva2015.csv]</parent-name>
+            <remote-alias>RENTER 50-80% NONZERO ENERGY</remote-alias>
+            <ordinal>83</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>RENTER 80-100% NONZERO ENERGY</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[RENTER 80-100% NONZERO ENERGY]</local-name>
+            <parent-name>[cityshva2015.csv]</parent-name>
+            <remote-alias>RENTER 80-100% NONZERO ENERGY</remote-alias>
+            <ordinal>84</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>RENTER 100%+ NONZERO ENERGY</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[RENTER 100%+ NONZERO ENERGY]</local-name>
+            <parent-name>[cityshva2015.csv]</parent-name>
+            <remote-alias>RENTER 100%+ NONZERO ENERGY</remote-alias>
+            <ordinal>85</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='Category' datatype='string' name='[CATEGORY]' role='dimension' type='nominal' />
+      <column caption='Name' datatype='string' name='[NAME]' role='dimension' type='nominal' />
+      <column datatype='integer' name='[Number of Records]' role='measure' type='quantitative' user:auto-column='numrec'>
+        <calculation class='tableau' formula='1' />
+      </column>
+      <column caption='Owner 0-30% Nonzero Energy' datatype='real' name='[OWNER 0-30% NONZERO ENERGY]' role='measure' type='quantitative' />
+      <column caption='Owner 0-30% Nonzero Income' datatype='real' name='[OWNER 0-30% NONZERO INCOME]' role='measure' type='quantitative' />
+      <column caption='Owner 0-30%' datatype='real' name='[OWNER 0-30%]' role='measure' type='quantitative' />
+      <column caption='Owner 100%+ Nonzero Energy' datatype='real' name='[OWNER 100%+ NONZERO ENERGY]' role='measure' type='quantitative' />
+      <column caption='Owner 100%+ Nonzero Income' datatype='real' name='[OWNER 100%+ NONZERO INCOME]' role='measure' type='quantitative' />
+      <column caption='Owner 100%+' datatype='real' name='[OWNER 100%+]' role='measure' type='quantitative' />
+      <column caption='Owner 30-50% Nonzero Energy' datatype='real' name='[OWNER 30-50% NONZERO ENERGY]' role='measure' type='quantitative' />
+      <column caption='Owner 30-50% Nonzero Income' datatype='real' name='[OWNER 30-50% NONZERO INCOME]' role='measure' type='quantitative' />
+      <column caption='Owner 30-50%' datatype='real' name='[OWNER 30-50%]' role='measure' type='quantitative' />
+      <column caption='Owner 50-80% Nonzero Energy' datatype='real' name='[OWNER 50-80% NONZERO ENERGY]' role='measure' type='quantitative' />
+      <column caption='Owner 50-80% Nonzero Income' datatype='real' name='[OWNER 50-80% NONZERO INCOME]' role='measure' type='quantitative' />
+      <column caption='Owner 50-80%' datatype='real' name='[OWNER 50-80%]' role='measure' type='quantitative' />
+      <column caption='Owner 80-100% Nonzero Energy' datatype='real' name='[OWNER 80-100% NONZERO ENERGY]' role='measure' type='quantitative' />
+      <column caption='Owner 80-100% Nonzero Income' datatype='real' name='[OWNER 80-100% NONZERO INCOME]' role='measure' type='quantitative' />
+      <column caption='Owner 80-100%' datatype='real' name='[OWNER 80-100%]' role='measure' type='quantitative' />
+      <column caption='Owner Allp 0-30%' datatype='real' name='[OWNER ALLP 0-30%]' role='measure' type='quantitative' />
+      <column caption='Owner Allp 100%+' datatype='real' name='[OWNER ALLP 100%+]' role='measure' type='quantitative' />
+      <column caption='Owner Allp 30-50%' datatype='real' name='[OWNER ALLP 30-50%]' role='measure' type='quantitative' />
+      <column caption='Owner Allp 50-80%' datatype='real' name='[OWNER ALLP 50-80%]' role='measure' type='quantitative' />
+      <column caption='Owner Allp 80-100%' datatype='real' name='[OWNER ALLP 80-100%]' role='measure' type='quantitative' />
+      <column caption='Owner Elep 0-30%' datatype='real' name='[OWNER ELEP 0-30%]' role='measure' type='quantitative' />
+      <column caption='Owner Elep 100%+' datatype='real' name='[OWNER ELEP 100%+]' role='measure' type='quantitative' />
+      <column caption='Owner Elep 30-50%' datatype='real' name='[OWNER ELEP 30-50%]' role='measure' type='quantitative' />
+      <column caption='Owner Elep 50-80%' datatype='real' name='[OWNER ELEP 50-80%]' role='measure' type='quantitative' />
+      <column caption='Owner Elep 80-100%' datatype='real' name='[OWNER ELEP 80-100%]' role='measure' type='quantitative' />
+      <column caption='Owner Fulp 0-30%' datatype='real' name='[OWNER FULP 0-30%]' role='measure' type='quantitative' />
+      <column caption='Owner Fulp 100%+' datatype='real' name='[OWNER FULP 100%+]' role='measure' type='quantitative' />
+      <column caption='Owner Fulp 30-50%' datatype='real' name='[OWNER FULP 30-50%]' role='measure' type='quantitative' />
+      <column caption='Owner Fulp 50-80%' datatype='real' name='[OWNER FULP 50-80%]' role='measure' type='quantitative' />
+      <column caption='Owner Fulp 80-100%' datatype='real' name='[OWNER FULP 80-100%]' role='measure' type='quantitative' />
+      <column caption='Owner Gasp 0-30%' datatype='real' name='[OWNER GASP 0-30%]' role='measure' type='quantitative' />
+      <column caption='Owner Gasp 100%+' datatype='real' name='[OWNER GASP 100%+]' role='measure' type='quantitative' />
+      <column caption='Owner Gasp 30-50%' datatype='real' name='[OWNER GASP 30-50%]' role='measure' type='quantitative' />
+      <column caption='Owner Gasp 50-80%' datatype='real' name='[OWNER GASP 50-80%]' role='measure' type='quantitative' />
+      <column caption='Owner Gasp 80-100%' datatype='real' name='[OWNER GASP 80-100%]' role='measure' type='quantitative' />
+      <column caption='Owner Hincp 0-30%' datatype='real' name='[OWNER HINCP 0-30%]' role='measure' type='quantitative' />
+      <column caption='Owner Hincp 100%+' datatype='real' name='[OWNER HINCP 100%+]' role='measure' type='quantitative' />
+      <column caption='Owner Hincp 30-50%' datatype='real' name='[OWNER HINCP 30-50%]' role='measure' type='quantitative' />
+      <column caption='Owner Hincp 50-80%' datatype='real' name='[OWNER HINCP 50-80%]' role='measure' type='quantitative' />
+      <column caption='Owner Hincp 80-100%' datatype='real' name='[OWNER HINCP 80-100%]' role='measure' type='quantitative' />
+      <column caption='Placefp' datatype='integer' name='[PLACEFP]' role='measure' type='quantitative' />
+      <column caption='Renter 0-30% Nonzero Energy' datatype='real' name='[RENTER 0-30% NONZERO ENERGY]' role='measure' type='quantitative' />
+      <column caption='Renter 0-30% Nonzero Income' datatype='real' name='[RENTER 0-30% NONZERO INCOME]' role='measure' type='quantitative' />
+      <column caption='Renter 0-30%' datatype='real' name='[RENTER 0-30%]' role='measure' type='quantitative' />
+      <column caption='Renter 100%+ Nonzero Energy' datatype='real' name='[RENTER 100%+ NONZERO ENERGY]' role='measure' type='quantitative' />
+      <column caption='Renter 100%+ Nonzero Income' datatype='real' name='[RENTER 100%+ NONZERO INCOME]' role='measure' type='quantitative' />
+      <column caption='Renter 100%+' datatype='real' name='[RENTER 100%+]' role='measure' type='quantitative' />
+      <column caption='Renter 30-50% Nonzero Energy' datatype='real' name='[RENTER 30-50% NONZERO ENERGY]' role='measure' type='quantitative' />
+      <column caption='Renter 30-50% Nonzero Income' datatype='real' name='[RENTER 30-50% NONZERO INCOME]' role='measure' type='quantitative' />
+      <column caption='Renter 30-50%' datatype='real' name='[RENTER 30-50%]' role='measure' type='quantitative' />
+      <column caption='Renter 50-80% Nonzero Energy' datatype='real' name='[RENTER 50-80% NONZERO ENERGY]' role='measure' type='quantitative' />
+      <column caption='Renter 50-80% Nonzero Income' datatype='real' name='[RENTER 50-80% NONZERO INCOME]' role='measure' type='quantitative' />
+      <column caption='Renter 50-80%' datatype='real' name='[RENTER 50-80%]' role='measure' type='quantitative' />
+      <column caption='Renter 80-100% Nonzero Energy' datatype='real' name='[RENTER 80-100% NONZERO ENERGY]' role='measure' type='quantitative' />
+      <column caption='Renter 80-100% Nonzero Income' datatype='real' name='[RENTER 80-100% NONZERO INCOME]' role='measure' type='quantitative' />
+      <column caption='Renter 80-100%' datatype='real' name='[RENTER 80-100%]' role='measure' type='quantitative' />
+      <column caption='Renter Allp 0-30%' datatype='real' name='[RENTER ALLP 0-30%]' role='measure' type='quantitative' />
+      <column caption='Renter Allp 100%+' datatype='real' name='[RENTER ALLP 100%+]' role='measure' type='quantitative' />
+      <column caption='Renter Allp 30-50%' datatype='real' name='[RENTER ALLP 30-50%]' role='measure' type='quantitative' />
+      <column caption='Renter Allp 50-80%' datatype='real' name='[RENTER ALLP 50-80%]' role='measure' type='quantitative' />
+      <column caption='Renter Allp 80-100%' datatype='real' name='[RENTER ALLP 80-100%]' role='measure' type='quantitative' />
+      <column caption='Renter Elep 100%+' datatype='real' name='[RENTER ELEP 100%+]' role='measure' type='quantitative' />
+      <column caption='Renter Elep 30-50%' datatype='real' name='[RENTER ELEP 30-50%]' role='measure' type='quantitative' />
+      <column caption='Renter Elep 50-80%' datatype='real' name='[RENTER ELEP 50-80%]' role='measure' type='quantitative' />
+      <column caption='Renter Elep 80-100%' datatype='real' name='[RENTER ELEP 80-100%]' role='measure' type='quantitative' />
+      <column caption='Renter Fulp 0-30%' datatype='real' name='[RENTER FULP 0-30%]' role='measure' type='quantitative' />
+      <column caption='Renter Fulp 100%+' datatype='real' name='[RENTER FULP 100%+]' role='measure' type='quantitative' />
+      <column caption='Renter Fulp 30-50%' datatype='real' name='[RENTER FULP 30-50%]' role='measure' type='quantitative' />
+      <column caption='Renter Fulp 50-80%' datatype='real' name='[RENTER FULP 50-80%]' role='measure' type='quantitative' />
+      <column caption='Renter Fulp 80-100%' datatype='real' name='[RENTER FULP 80-100%]' role='measure' type='quantitative' />
+      <column caption='Renter Gasp 0-30%' datatype='real' name='[RENTER GASP 0-30%]' role='measure' type='quantitative' />
+      <column caption='Renter Gasp 100%+' datatype='real' name='[RENTER GASP 100%+]' role='measure' type='quantitative' />
+      <column caption='Renter Gasp 30-50%' datatype='real' name='[RENTER GASP 30-50%]' role='measure' type='quantitative' />
+      <column caption='Renter Gasp 50-80%' datatype='real' name='[RENTER GASP 50-80%]' role='measure' type='quantitative' />
+      <column caption='Renter Gasp 80-100%' datatype='real' name='[RENTER GASP 80-100%]' role='measure' type='quantitative' />
+      <column caption='Renter Hincp 0-30%' datatype='real' name='[RENTER HINCP 0-30%]' role='measure' type='quantitative' />
+      <column caption='Renter Hincp 100%+' datatype='real' name='[RENTER HINCP 100%+]' role='measure' type='quantitative' />
+      <column caption='Renter Hincp 30-50%' datatype='real' name='[RENTER HINCP 30-50%]' role='measure' type='quantitative' />
+      <column caption='Renter Hincp 50-80%' datatype='real' name='[RENTER HINCP 50-80%]' role='measure' type='quantitative' />
+      <column caption='Renter Hincp 80-100%' datatype='real' name='[RENTER HINCP 80-100%]' role='measure' type='quantitative' />
+      <column caption='Slice' datatype='string' name='[SLICE]' role='dimension' type='nominal' />
+      <column caption='Type' datatype='string' name='[TYPE]' role='dimension' type='nominal' />
+      <layout dim-ordering='alphabetic' dim-percentage='0.214286' measure-ordering='alphabetic' measure-percentage='0.785714' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='OwnerRenterv.Qty'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='cityshva2015' name='federated.14aifyo1bzwita104jyp818g778f' />
+          </datasources>
+          <datasource-dependencies datasource='federated.14aifyo1bzwita104jyp818g778f'>
+            <column caption='Owner 0-30% Nonzero Energy' datatype='real' name='[OWNER 0-30% NONZERO ENERGY]' role='measure' type='quantitative' />
+            <column caption='Owner 100%+ Nonzero Energy' datatype='real' name='[OWNER 100%+ NONZERO ENERGY]' role='measure' type='quantitative' />
+            <column caption='Owner 30-50% Nonzero Energy' datatype='real' name='[OWNER 30-50% NONZERO ENERGY]' role='measure' type='quantitative' />
+            <column caption='Owner 50-80% Nonzero Energy' datatype='real' name='[OWNER 50-80% NONZERO ENERGY]' role='measure' type='quantitative' />
+            <column caption='Owner 80-100% Nonzero Energy' datatype='real' name='[OWNER 80-100% NONZERO ENERGY]' role='measure' type='quantitative' />
+            <column caption='Renter 0-30% Nonzero Energy' datatype='real' name='[RENTER 0-30% NONZERO ENERGY]' role='measure' type='quantitative' />
+            <column caption='Renter 100%+ Nonzero Income' datatype='real' name='[RENTER 100%+ NONZERO INCOME]' role='measure' type='quantitative' />
+            <column caption='Renter 30-50% Nonzero Energy' datatype='real' name='[RENTER 30-50% NONZERO ENERGY]' role='measure' type='quantitative' />
+            <column caption='Renter 50-80% Nonzero Energy' datatype='real' name='[RENTER 50-80% NONZERO ENERGY]' role='measure' type='quantitative' />
+            <column caption='Renter 80-100% Nonzero Energy' datatype='real' name='[RENTER 80-100% NONZERO ENERGY]' role='measure' type='quantitative' />
+            <column-instance column='[OWNER 0-30% NONZERO ENERGY]' derivation='Sum' name='[sum:OWNER 0-30% NONZERO ENERGY:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[OWNER 100%+ NONZERO ENERGY]' derivation='Sum' name='[sum:OWNER 100%+ NONZERO ENERGY:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[OWNER 30-50% NONZERO ENERGY]' derivation='Sum' name='[sum:OWNER 30-50% NONZERO ENERGY:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[OWNER 50-80% NONZERO ENERGY]' derivation='Sum' name='[sum:OWNER 50-80% NONZERO ENERGY:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[OWNER 80-100% NONZERO ENERGY]' derivation='Sum' name='[sum:OWNER 80-100% NONZERO ENERGY:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[RENTER 0-30% NONZERO ENERGY]' derivation='Sum' name='[sum:RENTER 0-30% NONZERO ENERGY:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[RENTER 100%+ NONZERO INCOME]' derivation='Sum' name='[sum:RENTER 100%+ NONZERO INCOME:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[RENTER 30-50% NONZERO ENERGY]' derivation='Sum' name='[sum:RENTER 30-50% NONZERO ENERGY:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[RENTER 50-80% NONZERO ENERGY]' derivation='Sum' name='[sum:RENTER 50-80% NONZERO ENERGY:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[RENTER 80-100% NONZERO ENERGY]' derivation='Sum' name='[sum:RENTER 80-100% NONZERO ENERGY:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.14aifyo1bzwita104jyp818g778f].[:Measure Names]'>
+            <groupfilter function='union' user:op='manual'>
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.14aifyo1bzwita104jyp818g778f].[sum:OWNER 0-30\% NONZERO ENERGY:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.14aifyo1bzwita104jyp818g778f].[sum:RENTER 0-30\% NONZERO ENERGY:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.14aifyo1bzwita104jyp818g778f].[sum:OWNER 30-50\% NONZERO ENERGY:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.14aifyo1bzwita104jyp818g778f].[sum:RENTER 30-50\% NONZERO ENERGY:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.14aifyo1bzwita104jyp818g778f].[sum:OWNER 50-80\% NONZERO ENERGY:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.14aifyo1bzwita104jyp818g778f].[sum:RENTER 50-80\% NONZERO ENERGY:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.14aifyo1bzwita104jyp818g778f].[sum:OWNER 80-100\% NONZERO ENERGY:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.14aifyo1bzwita104jyp818g778f].[sum:RENTER 80-100\% NONZERO ENERGY:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.14aifyo1bzwita104jyp818g778f].[sum:OWNER 100\%+ NONZERO ENERGY:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.14aifyo1bzwita104jyp818g778f].[sum:RENTER 100\%+ NONZERO INCOME:qk]&quot;' />
+            </groupfilter>
+          </filter>
+          <manual-sort column='[federated.14aifyo1bzwita104jyp818g778f].[:Measure Names]' direction='ASC'>
+            <dictionary>
+              <bucket>&quot;[federated.14aifyo1bzwita104jyp818g778f].[sum:OWNER 0-30\% NONZERO ENERGY:qk]&quot;</bucket>
+              <bucket>&quot;[federated.14aifyo1bzwita104jyp818g778f].[sum:RENTER 0-30\% NONZERO ENERGY:qk]&quot;</bucket>
+              <bucket>&quot;[federated.14aifyo1bzwita104jyp818g778f].[sum:OWNER 30-50\% NONZERO ENERGY:qk]&quot;</bucket>
+              <bucket>&quot;[federated.14aifyo1bzwita104jyp818g778f].[sum:RENTER 30-50\% NONZERO ENERGY:qk]&quot;</bucket>
+              <bucket>&quot;[federated.14aifyo1bzwita104jyp818g778f].[sum:OWNER 50-80\% NONZERO ENERGY:qk]&quot;</bucket>
+              <bucket>&quot;[federated.14aifyo1bzwita104jyp818g778f].[sum:RENTER 50-80\% NONZERO ENERGY:qk]&quot;</bucket>
+              <bucket>&quot;[federated.14aifyo1bzwita104jyp818g778f].[sum:OWNER 80-100\% NONZERO ENERGY:qk]&quot;</bucket>
+              <bucket>&quot;[federated.14aifyo1bzwita104jyp818g778f].[sum:RENTER 80-100\% NONZERO ENERGY:qk]&quot;</bucket>
+              <bucket>&quot;[federated.14aifyo1bzwita104jyp818g778f].[sum:OWNER 100\%+ NONZERO ENERGY:qk]&quot;</bucket>
+              <bucket>&quot;[federated.14aifyo1bzwita104jyp818g778f].[sum:RENTER 100\%+ NONZERO INCOME:qk]&quot;</bucket>
+            </dictionary>
+          </manual-sort>
+          <slices>
+            <column>[federated.14aifyo1bzwita104jyp818g778f].[:Measure Names]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='header'>
+            <format attr='width' field='[federated.14aifyo1bzwita104jyp818g778f].[:Measure Names]' value='284' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-color' value='#f28e2b' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.14aifyo1bzwita104jyp818g778f].[:Measure Names]</rows>
+        <cols>[federated.14aifyo1bzwita104jyp818g778f].[Multiple Values]</cols>
+      </table>
+    </worksheet>
+    <worksheet name='Renter v. Owner - CIty'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='cityshva2015' name='federated.14aifyo1bzwita104jyp818g778f' />
+          </datasources>
+          <datasource-dependencies datasource='federated.14aifyo1bzwita104jyp818g778f'>
+            <column caption='Name' datatype='string' name='[NAME]' role='dimension' type='nominal' />
+            <column caption='Owner 100%+' datatype='real' name='[OWNER 100%+]' role='measure' type='quantitative' />
+            <column caption='Renter 100%+' datatype='real' name='[RENTER 100%+]' role='measure' type='quantitative' />
+            <column-instance column='[NAME]' derivation='None' name='[none:NAME:nk]' pivot='key' type='nominal' />
+            <column-instance column='[OWNER 100%+]' derivation='Sum' name='[sum:OWNER 100%+:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[RENTER 100%+]' derivation='Sum' name='[sum:RENTER 100%+:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.14aifyo1bzwita104jyp818g778f].[:Measure Names]'>
+            <groupfilter function='union' user:op='manual'>
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.14aifyo1bzwita104jyp818g778f].[sum:OWNER 100\%+:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.14aifyo1bzwita104jyp818g778f].[sum:RENTER 100\%+:qk]&quot;' />
+            </groupfilter>
+          </filter>
+          <slices>
+            <column>[federated.14aifyo1bzwita104jyp818g778f].[:Measure Names]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.14aifyo1bzwita104jyp818g778f].[:Measure Names]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>[federated.14aifyo1bzwita104jyp818g778f].[Multiple Values]</rows>
+        <cols>([federated.14aifyo1bzwita104jyp818g778f].[none:NAME:nk] / [federated.14aifyo1bzwita104jyp818g778f].[:Measure Names])</cols>
+      </table>
+    </worksheet>
+    <worksheet name='Sheet 3'>
+      <table>
+        <view>
+          <datasources />
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+    </worksheet>
+  </worksheets>
+  <windows saved-dpi-scale-factor='1.25' source-height='37'>
+    <window class='worksheet' name='OwnerRenterv.Qty'>
+      <cards>
+        <edge name='left'>
+          <strip size='264'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+            <card type='measures' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.14aifyo1bzwita104jyp818g778f].[:Measure Names]</field>
+            <field>[federated.14aifyo1bzwita104jyp818g778f].[none:ABV:nk]</field>
+            <field>[federated.14aifyo1bzwita104jyp818g778f].[none:CATEGORY:nk]</field>
+            <field>[federated.14aifyo1bzwita104jyp818g778f].[none:SLICE:nk]</field>
+            <field>[federated.14aifyo1bzwita104jyp818g778f].[none:TYPE:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+    </window>
+    <window class='worksheet' name='Renter v. Owner - CIty'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+            <card type='measures' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.14aifyo1bzwita104jyp818g778f].[:Measure Names]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.14aifyo1bzwita104jyp818g778f].[:Measure Names]</field>
+            <field>[federated.14aifyo1bzwita104jyp818g778f].[none:NAME:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+    </window>
+    <window class='worksheet' maximized='true' name='Sheet 3'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='OwnerRenterv.Qty' width='192'>
+      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
+    </thumbnail>
+    <thumbnail height='192' name='Renter v. Owner - CIty' width='192'>
+      iVBORw0KGgoAAAANSUhEUgAAAMAAAADACAYAAABS3GwHAAAACXBIWXMAABJ0AAASdAHeZh94
+      AAAVZ0lEQVR4nO2dzW8beXrnP1VFsvhOvZCSSImSLMt2d9rpHswmnWRmkiAIMDkFOeSc5JQg
+      f0DumWuw2GtumSCXIAvsYU9ZYIEBdifIZHqn12233bZl690iJYsS38mqYr3l4G5Zst5I64Xq
+      rucD+FDlD4uPKH1Zb7/nV4rv+z6CEFDUYRcgCMNEAiAEGgmAMHS++H+fYXkuK6vr1/7eoWt/
+      R0F4h9WVxxjhONvrGzjdGuWqyZ1bOZ49WyWViDA59wHl1SXSE0V+/YOFS31v2QMIQyc2OoPb
+      KOO4Dtvbu2y8fELHhZgKM7MTPPrFz3i23abZbF76e8seQBg6M9PTzIzH6Si7hLwuM3MLpJNp
+      1MI08cQIH37/d9hYXmZ8fPTS31u5KZdBHcchFOovj+KK+w2u66IoCqp6/sHMSe6NOQTqdDri
+      ijuwa1kWjuO8t3tjAiAIw0ACIAQaCYAQaCQAQqCRAAiB5koD4FgdHnz2Hzz4aolavYl37is8
+      lp8+4t8/+5xm1zrD89lcfckvfvEL9hvnXS0YxPUobe3gmi229xoAGJ0GzZZ5zOzWX1Pr2Oy/
+      LlOrN7C//uG8XodG1z7ml0slPN+nVCrRbLY47drz3k4Zy/XZLpWoH77x4/vU643+3EG2ewql
+      Ugmr02RpdYPKzjY99/TfXr/u3nYZy/N58vgJdrfGbq176jZNx6DX3GNpY5udUhn3rGJ9l1L5
+      NZXNFXYaHUrl8qmf77uu9pOf/OQnZ237IqihCBGnS2rmNo3KNna3wcrKChulHRqtLhPZsQPX
+      siyi0RhjqRgtP0rC7/BiZY2eFyaTih/ZrmVZTOYLtNot8imVXz5ex7c7bG5u4qpRUonoe7oG
+      e5U6Y5kIO7UOay+egKqysVaiZVpkx0YOXNu22Ntv0u200aweltpj+eU6Rm2Hx5s15goTqKpy
+      UINiNugoERr1FqbZoddtsra2RiSVJRbR3m7XqFPrQqdVw7JMzFaN9Y1XtLoGjx59SXayQEwP
+      n+ha7RrrpT06jX3WX75AS+dI6KGBXcuyaNar2LZN07BxbRNd83m59BwtkSWuv613ENdo7tJs
+      dak2TJyeRTKTZO3lEl1bYeX5l4RiGRIxHYDV9Ro9x8S1LSzLJIzD8xfL6PT4/OkGE7ksYU3F
+      tm1ULcTu6x1cPHpdC9Oy6HUbPF/dopCfRDn4nR13r+0QyLQsbE/hzsI8I9kpYuGz/Vq9yZ17
+      d+g062d6vutQvH0XwzC5d3eRZr16AVfB9Wws00LTVManZhjLJJlbuI3XM46YWiSBZ1bxtRi2
+      aVGtN7i1eIfp/CTF4hzaO59sdnqW5S8+Z2xiCtOyeLW+hq9o4B39toymxmmVnxFJT2FZFi4q
+      d+8toqg6s8UiI8noqa7jKdy9u4jt+szmc9iHvokHcQEKozFevu6QjSqYhNir7NIzmuzut459
+      rv26iUyW1ZUN7i1Msl3rYjf3MW2L7fIumewUE2PpA3csUqe0b5AI+diE2d2t0G1UqTZazCzc
+      O/KlARBSwfbDuGaVSCxNZXeXSqlM71i1R90r3QMAaKEwET1KXI+QTCbR9Ri6rpOMxzAMA8e0
+      UHUd27KIRqOgqETCESbGR1hff8Xs/BydThvTMt/8P9/sLaKEw2Fi8SSRSIRsJs7aRplbC3N0
+      Wl1M00CPRgd0e6TjYcq1Lrdmp9EjEaJRnfLWK/LFeSyjQ880Ces6PcsiGY0wMlEgFouQnchR
+      3tggkS3Q2d9BD2v4vk/bdFF8l2gsgRYKk8uNo4fD5KcmaXd7ZEdTmD0HwzCIRnUsq0dETzCV
+      zxGNREgmkkT0KOFImJDfw/ZVbMfD6HZRFPWom0wSiei4ZpPny+tk83l8130PF5Kj44QVhcnc
+      CGokSSah44ViTI6lMW0H0zCIfv359u3aLul0ilwuSygUZnw0Tdd0KOTzZNIpwiGFVsfAMLqE
+      owlSiTjjo0ki8RGSsRBqJMHk5ASJRAzP6uD4PvVml3hMJxkLE0mMENdDjOQm0Xyb9FiORFjD
+      xcMwbVQFVFU94l7ZUAjP83AcB8s661j+LZ1Oh0QiIe4luN1WnXrHJj+VO9j9X4Z7VfVexLUs
+      C03T+ho2cZJ7ZYPhFEXBMAxSqVRfvuu6fX844p7tJhIJclfgXlW9F3FVVSUUChEOn3NMfYp7
+      pQH45k379cUVd1BXUZQLuXIfQAg0EgAh0EgAhEAjARACjbREBgSz5/BP/+OzI+v++k9+g0hY
+      O+UVwUACEBBsx+NnD9aOrPvLP/4+EOwAyCGQEGgkAEKgkQAIgUYCIAQaCYAQaAYOgO97bzqa
+      PJfKbgXP9+m0GjQ7Bnavh+f7GObxDipBuIkMfBl0f/sVjzcq3JlM40ViLK+tYTS7+IpPdjSO
+      qoRw9TTFaPT8jQnCkBkoAG6vw+OlNRzXoWokuX8rz/Kzx8Qy04TtBlbPYHO7ze/+cBbXdQ96
+      AvpB3Kt2j3fVOo6LoyknuDeh3v7cb6Y7fF93oACo4Tg/+uEPWF5bYyIT59HDx+SmZ6mV1mlr
+      MaazaX7jkyJrmyUW52cOxl/3tW1xr9g9fsMrFDq5keRm1Nufq2la3w0xJ7kDBUBRFMKRCB/e
+      uwfA+FQRgJmJ8SNeKp0ZZLOCMDTkKpAQaCQAQqCRAAiBRgIgBBoJgBBoJABCoJEACIFGAiAE
+      GgmAEGgkAEKgkQAIgWbA4dA+m6vLGH6YYi7NykaZfHGeXnMXW0swntLR4wnq9Ra5Qw+/EISb
+      ysD9ALmpPEsvltl1W9iESegeFUND9apU7RCdrTL5udt8M+v6ILOvi3t1rn/CQ4N83z/19cOu
+      dxD3rJ/jPHfAACjYloHi+kws/BpFz+Kr58/R41OE0PBch1bHYEZTD97I885/Mhi8Gf8t7tW5
+      vnf8D8TzTv793IR6+3U9z0NV1fd2BwuA57CzU0HRYxjVXVZfV8gX79Lee4UdTjA+EqMwm2G3
+      sk+yMIWiKGhafxMvqaoq7hW776JpJ7/+ptTbj6uq6oXcwQKghrj74a8dLI5P5AHIjX54RJsp
+      TA20WUEYFnIVSAg0EgAh0EgAhEAjARACjQRACDQSACHQSACEQCMBEAKNBEAINBIAIdBIAIRA
+      M+BoUI/VF0vUuy4LxSzrr3bIz92mXl7D1uLkx+LEkmn2ah1mpyevpmJBuEQGDIBKJpNit1lh
+      d6/J/Y/vs7r0BCWWJ+40aDSrPF0u8emn/0WmR79xrkyPfuHp0fFcoqksaXUX23Not9u4ahTX
+      aOH4PdLpGMXJKNVGm/x4euhTZ4t72JXp0S88PTqKQq1SJp7LM5sfZ239FYuL92jub2OrWTLx
+      MJFonHareUL/kSDcPAYMgMrM3MLB4u3F2wCMTxSOaJmMPB9A+HYgV4GEQCMBEAKNBEAINBIA
+      IdBIAIRAIwEQAo0EQAg0EgAh0EgAhEAjARACjQRACDQD9wOsvFhiZ6/JfGGE7VqP+VuzbL5Y
+      wtZ0ZnJJ9GiCugmLszI/qHDzGbgfYDKXxXBDJJIp9OZrGvtlkrlbROw6Zs9gaWOP3//Rp9IP
+      cONc6Qe4eD+A3+PzB48pzN3C8XzC4RA2MYy9DepamOlsko/vZVnd3GZxrjD0seLiHnalH2Cg
+      fgCjXed1rcv4SIpUKvX12jA//L3fxfchHNbIjGYJhUJ480VAQVUARWFsgKeACMIwOTUAX3zx
+      BT1UtrUwv/ODH7xZqSiEw+EDJxx+cw797sMJFOX4blUQbiKnXgW6PVdkb2eHRHbmOusRhGvl
+      1ABUqxVQNDY2Nq6zHkG4Vs69D6BId6/wHebEc4BOs0o4meN738uRSI9ed02CcG2cuAewjC5P
+      v/iMf/zpP/C//+1X112TIFwbJ+4BxiZnyE7P8UeTBULh6HXXJAjXxsmHQK06txc/wGrv40Tk
+      EEj47nLiIZBttnn04Fc8+uol1Vr9umsShGvj5KtAvo/juiiqSjjU35O9BeHbyImHQHpihD/4
+      wx8TjUaQe7rCd5kTAxBLpE5aDfisLS/RtlUWixO8XNlkdvEe9e01bC3BxEiMWDLNfrVBfjJ3
+      hWULwuUw4HBomL11h+dPn7K5tcOH9z9k9eUzCI2j9drUah2W17a499F9PM/D931c9/gw3JMQ
+      96pd79g61/NOfP3NqLc/1/d9vFN+jn7cgQOw+uI5hfnb1LZffb0hBc/zUDwfRVWJhDRs20GJ
+      6MBgA+PEvUr3uKegnPr64dfbv6sop/8c57kDPh/Aweo5lLdKLMzlWXmxwuztD2i83sDWMoyl
+      oxRmUlSrNUhGURQFVe2v61Lcq3ffRVVPfv1Nqbcf95s/6Pd1BwuAGub+J58cLH50/yMAUvOL
+      R7TJCTn+F74dSFO8EGgkAEKgkQAIgUYCIAQaCYAQaCQAQqCRAAiBRgIgBBoJgBBoJABCoJEA
+      CIFm4NGga0tf4kSzjOs91nZazM3P83rjJbYWozCeJJ5MsVs3WSjK9OjCzWfgABTnFljb3sf3
+      VUKqj9mpEE7PELcbtDoNnq6U+dEPf0umR79xrkyPfvHp0fExDQPTMNEyWeZmYmy93sOzLUwc
+      xkbi3JlNUt6tUpwcG/rU2eIedmV69IGmRz8Zn2bbIBWPEo0nqFT2+ODuBxitGq6mE49ohCI6
+      hmEMtllBGBIDPyGmUJw9WCoW38wcnRoZO2Il4vELFyYI18HA5wDCdwvftcE/dH6gBGsaHAlA
+      wLF+/l+xH/7zwXL4+38B3/urIVZ0vch9ACHQSACEQCMBEAKNBEAINBIAIdBIAIRAIwEQAo0E
+      QAg0AwfAcx16toPve7RaLTzfxzINTKuH6zj4vo9t21dRqyBcOgPfCd5YfoahpRkN2bRsHyWi
+      09mv4ioqU+MJQiEdgyjzhexV1CsIl8p79APcYm17n07PZ/HOLZaffUl8tEjErmP2DDY29vj9
+      H30q/QA3zj25HyDkHX1ugO97N6TeG9kP4LK2ssJmpcmHt4s8fPiY8akZ6uV1mlqM6WyC79/P
+      s7Je4s6tmaGPFRf3sHtyP4DyzrTiiqLekHpvZD+Axp2PPuHO10uF4jwAc/mJI9aIPFlV+JYg
+      V4GEQCMBEAKNBEAINBIAIdBIAIRAIwEQAo0EQAg0EgAh0EgAhEAjARACjQRACDTvPTGW2amz
+      vFZiamYOr1vF1uKMJiJEYgmazTZjo5nLrFMQroT3DkCltIlFlHRC4eW2i+rt4lk6PWuHkcni
+      ZdYoCFfGewdg5s6vk+91+OrZc6KJAmHHxu4Z7OwZ5OcWpB/gxrnSD3AJ/QBvqe/tUNqpMFlY
+      pL33CktLMDmSoVDMsLtboTiTH/pYcXEPu9IPcAn9AG8ZzeUZzeXfLGSPHu/PzuTfd7OCcK3I
+      VSAh0EgAhEAjARACjQRACDQSACHQSACEQCPPCLsGHNfj5482jqz7wf0iIU2+f4aNBOAaMCyH
+      //bf/+PIut/8oCABuAFcQgB8Xjx9gq3FmRpLEE+m2Kt1KBYmzn+pIAyZi38FOS3Qc8QUl0Zj
+      j///8Bm5CZkYVzgZy3aO/PN9f6j1XHwPoIaxrQ6Ob5NKxSjkItRbXaZGk5dQXvBwPZ+XW/tH
+      1t0ujKGqypAqujxa3R5//nf/68i6f/nbPyWmh4dU0aUEIMbkmI6tjpJJRNBjcZqNJsPN9bcD
+      +6v/ibP+7wfLoYXfozvy2/zN3//siDfsP5LvMpdyEpydmjmyPDo6gud5dM0eP/3X/3vk//7s
+      xx+jNTfwW9sH65R0AVPv/5yh2+327TZbbb54uXNk3Se3J0/8Rh3ErdWb/PRfHx5Z92c//phw
+      6PhRpWUZLEzEjqxrt1oo+69xdl8drAtldrFiJ7vdJ/8Ht/zgYJ0285v0pj499l6ncWoN2jjO
+      yP23NWhj2Ff0+Z5Wg1nePPb3sN1LHdluIhrmbnH82DZ7vV7fI0d7vR6NTo+tvfbb9/Kv+SDM
+      8zxU9fgfSaPRIJPJiCvuQG632yUUChGJRN7LvfbrcG+L8rCsnrjiDuw6dg/nnUae93WHdCHa
+      Z3trmX/7+a/oWuc9T0xccQ+Zvs3jX/6SR89WOd7jNrg7tBthuak8040I0cj5JYgr7ltCTBen
+      8Uan+vj2Pt8dyh7A90HxNBTVoLRTOfOKkbjivoueTlHf3qLa6Jxjnu8OJQBmu87SsyVMT6FR
+      q4srbt/u/u42y8trqJpCvd68sDuUAGiqihqNY3c7ZHNn3zUWV9zDKIpCPK7TMRyy4yMXdocS
+      AKvTxvZ80qPjjGXOvmMsrriH6bTbqFqI7ESeWOT4TBeDukMJgJ5I4DsuvmPwqlwR9wrdze+Y
+      G49FcQnR3i9Ra5kXdocSgPb+HonsJMWZGVqNmrhX6La/Y+7efo3C9AyFfJbq/tnnC/24QwnA
+      aPE2vco6nz94yPziHc4a5iWuuIe5+8Fdnn/5gK+Wy9xZPHsKzr5cfwjsrb/wV1/XfMvs+g++
+      +NL3fN+v1+viinuu+/TLh36ra/rtxq7/5Pma3+l0fMuy3tsdyo2wdG6C8uoWq1WVzNjxAU7i
+      insaE7lxNtfXUHyH3NTchd2hBECNxFm4NQ/Aq82SuOL27aZGs0RTo4BDqbRPcub0UcT9uEMJ
+      gN2p8vB5iWI+S63ZElfcvt3S6nO6oQwp3adrnD1uqC/3xIOnq8bz/F6v5/u+75umeeYxn7ji
+      HlUdv2c7vu97vmlaZ54D9OMOZzSoorD/ehvT9tB1/cyzfnHFPaqqlLde4fug65EzzP7coc3L
+      EQkrPPnyEaub5XMHP4kr7mEco8njr56yu984xzzfHdpwaFULE0ukiPZRgbjiHiaaiKK6MVzH
+      Ac7ulT7PHdoeoFFv0qjusbO7L664A7mtdpOdrTK1+tknzP24Q9sDxOJJFu+M0u1a4oo7kJtK
+      TjCe1em5539/n+cOpyHGs3n+1VN2KxV67tm9neKKexijVefZ0ksqlQqKdvb3dz/uUAKgqGE+
+      +vhDQqpy7nQW4op7mFhqhLu3Z1FU7dy5Vftxh3YI1KjVGZuYJn7OpSxxxT3mtrrMzs+jR2N4
+      7tmPRz3PHdpJ8HhunK3NTXb3quKKO5A7ko7yaqtErXl+T/B57tACsFepgqJhtM6/liuuuIdp
+      tpsorkatj7Cc5w4tAIXiNKrXI5EZE1fcAVyF/FQBs9dlIn/edJrnu0M5B+hWt1naqqHrEQzz
+      7Mte4op7mM3VF7QNCz0Wwew5xM/oC+7HHcoeoLpTJTGaZnurzMhIWlxx+3br9RbpdIztUpVk
+      TL+we+2T4wK4jk3XeNOkrGph4vEozRMmQxVX3HexTIOe/eZqTkSP4jr2iZPj9usO5RBIC4VJ
+      pfqb715ccQ+jR2Po0bfLXef0noB+XHlKmxBo/hMyq0LfvfvXNAAAAABJRU5ErkJggg==
+    </thumbnail>
+    <thumbnail height='192' name='Sheet 3' width='192'>
+      iVBORw0KGgoAAAANSUhEUgAAAMAAAADACAYAAABS3GwHAAAACXBIWXMAABJ0AAASdAHeZh94
+      AAACFUlEQVR4nO3TMQEAIAzAMMC/5yFjRxMFfXpnZg5Eve0A2GQA0gxAmgFIMwBpBiDNAKQZ
+      gDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFI
+      MwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQD
+      kGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBp
+      BiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA
+      0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDN
+      AKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxA
+      mgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZ
+      gDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFI
+      MwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKR9Y+0F
+      fBUOM1sAAAAASUVORK5CYII=
+    </thumbnail>
+  </thumbnails>
+</workbook>
